@@ -294,8 +294,6 @@ install_command() {
     install_marzneshin_script
     install_marzneshin $database $nightly
     install_marznode_xray_config
-    up_marzneshin
-    follow_marzneshin_logs
 }
 
 uninstall_command() {
